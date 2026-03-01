@@ -55,9 +55,6 @@ export function HeroImageSlider() {
         </motion.div>
       </AnimatePresence>
       
-      {/* Decorative elements behind */}
-      <div className="absolute -z-10 top-10 right-10 w-64 h-64 bg-blue-200/30 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute -z-10 bottom-10 left-10 w-64 h-64 bg-teal-200/30 rounded-full blur-3xl animate-pulse delay-1000" />
     </div>
   );
 }
