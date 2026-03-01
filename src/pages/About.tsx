@@ -74,7 +74,7 @@ export function About() {
                   </h2>
                   <div className=”mb-10”>
                     <h3 className=”text-xl font-bold text-slate-800 mb-4”>
-                      Ligareは”繋ぐ”という意味のラテン語に由来しています。
+                      Ligareは&quot;繋ぐ&quot;という意味のラテン語に由来しています。
                     </h3>
                     <p className=”text-slate-600 leading-relaxed”>
                       従来のシステムで埋もれていた企業/学生を繋げ、
