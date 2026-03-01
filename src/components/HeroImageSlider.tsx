@@ -4,8 +4,7 @@ import { motion, AnimatePresence } from "motion/react";
 const images = [
   {
     src: "/images/ligare2.png",
-    alt: "Ligare Logo",
-    isLogo: true
+    alt: "Ligare Logo"
   },
   // Office / Team image
   {
@@ -41,16 +40,12 @@ export function HeroImageSlider() {
           transition={{ duration: 1.2, ease: "easeInOut" }}
           className="absolute inset-0 flex items-center justify-center"
         >
-          <div className={`relative overflow-hidden shadow-2xl ${images[currentIndex].isLogo ? 'w-[80%] h-[60%] bg-white/80 backdrop-blur-sm p-8 flex items-center justify-center' : 'w-full h-full'}`}>
+          <div className="relative overflow-hidden shadow-2xl w-full h-full">
              <img
               src={images[currentIndex].src}
               alt={images[currentIndex].alt}
-              className={`w-full h-full object-cover ${images[currentIndex].isLogo ? 'object-contain' : ''}`}
+              className="w-full h-full object-cover"
             />
-            {/* Overlay for non-logo images to blend with theme */}
-            {!images[currentIndex].isLogo && (
-              <div className="absolute inset-0 bg-gradient-to-tr from-slate-900/20 to-transparent mix-blend-multiply" />
-            )}
           </div>
         </motion.div>
       </AnimatePresence>
