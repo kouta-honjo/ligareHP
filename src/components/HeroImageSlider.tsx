@@ -2,10 +2,9 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
 const images = [
-  // Placeholder for Ligare Logo - User should replace this with their actual logo asset
   {
-    src: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1000&auto=format&fit=crop", 
-    alt: "Ligare Logo Concept",
+    src: "/images/ligare2.png",
+    alt: "Ligare Logo",
     isLogo: true
   },
   // Office / Team image
