@@ -4,7 +4,8 @@ import { motion, AnimatePresence } from "motion/react";
 const images = [
   {
     src: "/images/ligare2.png",
-    alt: "Ligare Logo"
+    alt: "Ligare Logo",
+    isLogo: true
   },
   // Office / Team image
   {
@@ -44,7 +45,7 @@ export function HeroImageSlider() {
              <img
               src={images[currentIndex].src}
               alt={images[currentIndex].alt}
-              className="w-full h-full object-cover"
+              className={`w-full h-full ${images[currentIndex].isLogo ? 'object-contain' : 'object-cover'}`}
             />
           </div>
         </motion.div>
