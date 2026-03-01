@@ -68,16 +68,16 @@ export function About() {
                   <span className="text-slate-500 font-mono text-sm tracking-[0.2em] uppercase mb-6 block">
                     About Us
                   </span>
-                  <h2 className="text-3xl md:text-4xl font-bold mb-8 text-slate-800 leading-tight">
+                  <h2 className=”text-3xl md:text-4xl font-bold mb-8 text-slate-800 leading-tight”>
                     大学と企業をつなげる<br />
                     広大発異才集団
                   </h2>
-                  <div className="mb-10">
-                    <h3 className="text-xl font-bold text-slate-800 mb-4">
-                      Ligareは“繋ぐ”という意味のラテン語に由来しています。
+                  <div className=”mb-10”>
+                    <h3 className=”text-xl font-bold text-slate-800 mb-4”>
+                      Ligareは”繋ぐ”という意味のラテン語に由来しています。
                     </h3>
-                    <p className="text-slate-600 leading-relaxed">
-                      従来のシステムで埋もれていた企業、学生、レガシーな価値を繋げ、
+                    <p className=”text-slate-600 leading-relaxed”>
+                      従来のシステムで埋もれていた企業/学生を繋げ、
                       これまで実現できなかった価値創出を支援します。
                     </p>
                   </div>
