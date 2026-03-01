@@ -194,7 +194,7 @@ export function Home() {
                     About Us
                   </span>
                   <h2 className="text-3xl md:text-4xl font-bold mb-8 text-slate-800 leading-tight">
-                    Ligareは“繋ぐ”という意味の<br />
+                    Ligareは"繋ぐ"という意味の<br />
                     ラテン語に由来しています。
                   </h2>
                   <p className="text-slate-600 leading-relaxed mb-10">
