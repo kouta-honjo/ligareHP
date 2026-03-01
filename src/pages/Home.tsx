@@ -31,25 +31,25 @@ const works = [
     title: "広島大学駐車場管理システム",
     category: "DX",
     description: "広島大学の駐車場の混雑状況を可視化するシステムを構築しました。",
-    image: "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?q=80&w=2070&auto=format&fit=crop",
+    image: "/images/広大駐車場管理システム.png",
   },
   {
     title: "広大COOP食堂 フードロス対策",
     category: "Food Loss",
     description: "廃棄食材を学生に提供し、廃棄を50％削減。300人にアプリを提供しました。",
-    image: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=2070&auto=format&fit=crop",
+    image: "/images/廃棄食材マッチング.png",
   },
   {
     title: "JA全農広島 × マルシェ",
     category: "Collaboration",
     description: "産学連携活動としてマルシェを開催し、完売を達成しました。",
-    image: "https://images.unsplash.com/photo-1488459716781-31db52582fe9?q=80&w=2070&auto=format&fit=crop",
+    image: "/images/JA全農マルシェ.png",
   },
   {
     title: "みかん収穫支援",
     category: "HR Support",
     description: "農業に興味がある学生とマッチングし、みかんを大量に収穫しました。",
-    image: "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?q=80&w=2070&auto=format&fit=crop",
+    image: "/images/ミカン収穫.png",
   },
 ];
 

@@ -125,22 +125,26 @@ export function About() {
               {
                 name: "前野 晃汰",
                 role: "代表 / CEO",
-                desc: "事業戦略と営業統括を担当。驚異的な行動力で地域と企業をつなぐロールモデルを創出します。"
+                desc: "事業戦略と営業統括を担当。驚異的な行動力で地域と企業をつなぐロールモデルを創出します。",
+                image: "/images/前野.png"
               },
               {
                 name: "水野 光世",
                 role: "副代表 / COO",
-                desc: "事業戦略とブランド設計、デザインを担当。伝わる表現と使いやすさを両立したデジタルコミュニケーションを実現します。"
+                desc: "事業戦略とブランド設計、デザインを担当。伝わる表現と使いやすさを両立したデジタルコミュニケーションを実現します。",
+                image: "/images/水野.png"
               },
               {
                 name: "本庄 晃汰",
                 role: "CSO / Project Manager",
-                desc: "事業戦略とDX案件の進行管理を担当。課題発見から運用まで、現場目線で徹底して伴走します。"
+                desc: "事業戦略とDX案件の進行管理を担当。課題発見から運用まで、現場目線で徹底して伴走します。",
+                image: "/images/本庄.png"
               },
               {
                 name: "池田 有之介",
                 role: "CTO / Technical Advisor",
-                desc: "驚異的な技術スタックにより、3歩先のDXを実現できます。"
+                desc: "驚異的な技術スタックにより、3歩先のDXを実現できます。",
+                image: "/images/池田.png"
               }
             ].map((member, index) => (
               <motion.div
@@ -152,9 +156,7 @@ export function About() {
                 className="group"
               >
                 <div className="aspect-[3/4] bg-slate-200 mb-6 relative overflow-hidden">
-                  <div className="absolute inset-0 flex items-center justify-center text-slate-400 font-mono text-sm">
-                    Photo coming soon
-                  </div>
+                  <img src={member.image} alt={member.name} className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <h3 className="text-lg font-bold text-slate-900 mb-1">
                   {member.name}
