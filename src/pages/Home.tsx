@@ -194,12 +194,11 @@ export function Home() {
                     About Us
                   </span>
                   <h2 className="text-3xl md:text-4xl font-bold mb-8 text-slate-800 leading-tight">
-                    Ligareは"繋ぐ"という意味の<br />
-                    ラテン語に由来しています。
+                    大学と企業をつなげる<br />
+                    広大発異才集団
                   </h2>
                   <p className="text-slate-600 leading-relaxed mb-10">
-                    従来のシステムで埋もれていた企業、学生、レガシーな価値を繋げ、
-                    これまで実現できなかった価値創出を支援します。
+                    Ligareは"繋ぐ"という意味のラテン語に由来しています。従来のシステムで埋もれていた企業/学生を繋げ、これまで実現できなかった価値創出を支援します。
                   </p>
                   <Link to="/vision" className="inline-flex items-center text-slate-800 font-medium hover:opacity-70 transition-opacity border-b border-slate-800 pb-1">
                     私たちについて <ArrowRight className="ml-2 w-4 h-4" />
