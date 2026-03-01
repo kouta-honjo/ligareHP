@@ -63,7 +63,7 @@ export function Service() {
                 </div>
 
                 {/* Content Side */}
-                <div className="md:w-1/2 p-12 md:p-16 flex flex-col justify-center bg-white relative z-20">
+                <div className="md:w-1/2 p-6 md:p-12 lg:p-16 flex flex-col justify-center bg-white relative z-20">
                   <div className="text-4xl mb-6">{service.icon}</div>
                   <h3 className="text-2xl font-bold mb-4 text-slate-900">{service.title}</h3>
                   <p className="text-slate-600 leading-relaxed mb-8">

@@ -99,7 +99,7 @@ export function Home() {
       <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
         <HeroBackground />
         <div className="container mx-auto px-6 relative z-10">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-6 md:gap-12 items-center">
             {/* Left Content */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -107,7 +107,7 @@ export function Home() {
               transition={{ duration: 1.5, ease: "easeOut" }}
               className="max-w-2xl"
             >
-              <h1 className="text-6xl md:text-8xl font-bold tracking-tight leading-[1.1] mb-10 text-slate-900">
+              <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold tracking-tight leading-[1.1] mb-10 text-slate-900">
                 テクノロジーで、<br />
                 ヒト、モノ、体験を<br className="md:hidden" />
                 <motion.span
@@ -159,14 +159,14 @@ export function Home() {
       {/* Vision Section (formerly About) - Redesigned with Diagonal Split */}
       <section className="py-0 relative overflow-hidden bg-white">
         <div className="container-fluid mx-auto">
-          <div className="flex flex-col lg:flex-row min-h-[600px]">
+          <div className="flex flex-col lg:flex-row lg:min-h-[600px]">
             {/* Left Image Side */}
             <motion.div 
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 1.5 }}
-              className="lg:w-7/12 relative h-[400px] lg:h-auto overflow-hidden"
+              className="lg:w-7/12 relative h-[250px] md:h-[400px] lg:h-auto overflow-hidden"
             >
               <img 
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop" 
@@ -212,9 +212,9 @@ export function Home() {
 
       {/* Service Section - Redesigned based on reference */}
       <section className="relative bg-slate-50 overflow-hidden">
-        <div className="flex flex-col lg:flex-row min-h-[800px]">
+        <div className="flex flex-col lg:flex-row lg:min-h-[800px]">
           {/* Left Side - Visual & Main Text */}
-          <div className="lg:w-1/2 relative min-h-[500px] lg:min-h-full bg-slate-900 flex items-center">
+          <div className="lg:w-1/2 relative min-h-[300px] md:min-h-[400px] lg:min-h-full bg-slate-900 flex items-center">
             <div className="absolute inset-0 z-0">
               <img 
                 src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop" 
@@ -224,17 +224,17 @@ export function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-slate-900/40" />
             </div>
             
-            <div className="relative z-10 p-12 lg:p-20 max-w-2xl">
+            <div className="relative z-10 p-6 md:p-12 lg:p-20 max-w-2xl">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 1 }}
               >
-                <h2 className="text-3xl md:text-5xl font-bold mb-8 text-orange-400 tracking-widest uppercase">
+                <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold mb-8 text-orange-400 tracking-widest uppercase">
                   Service
                 </h2>
-                <h3 className="text-2xl md:text-3xl font-bold text-white mb-8 leading-relaxed">
+                <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-white mb-8 leading-relaxed">
                   HumanityとTechnologyで、<br />
                   ビジネスの課題を解決する。
                 </h3>

@@ -58,13 +58,13 @@ export function Vision() {
       <section className="py-32 bg-slate-900 text-white relative overflow-hidden">
         {/* Background Elements */}
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden opacity-20 pointer-events-none">
-           <div className="absolute top-[-10%] right-[-10%] w-[500px] h-[500px] rounded-full bg-blue-600 blur-[100px]" />
-           <div className="absolute bottom-[-10%] left-[-10%] w-[500px] h-[500px] rounded-full bg-purple-600 blur-[100px]" />
+           <div className="absolute top-[-10%] right-[-10%] w-[250px] md:w-[400px] lg:w-[500px] h-[250px] md:h-[400px] lg:h-[500px] rounded-full bg-blue-600 blur-[100px]" />
+           <div className="absolute bottom-[-10%] left-[-10%] w-[250px] md:w-[400px] lg:w-[500px] h-[250px] md:h-[400px] lg:h-[500px] rounded-full bg-purple-600 blur-[100px]" />
         </div>
 
         <div className="container mx-auto px-6 relative z-10">
           <div className="mb-20 text-center">
-            <h2 className="text-4xl md:text-6xl font-bold tracking-tighter">
+            <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold tracking-tighter">
               Our Mission
             </h2>
           </div>

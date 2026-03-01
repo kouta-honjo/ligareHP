@@ -15,7 +15,7 @@ export function Contact() {
             <span className="text-blue-600 font-mono text-sm tracking-[0.2em] uppercase mb-4 block">
               Contact
             </span>
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-8">
               Contact Us
             </h2>
             <p className="text-slate-600 mb-12 leading-relaxed">

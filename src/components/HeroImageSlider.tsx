@@ -31,7 +31,7 @@ export function HeroImageSlider() {
   }, []);
 
   return (
-    <div className="relative w-full h-[500px] flex items-center justify-center">
+    <div className="relative w-full h-[300px] md:h-[400px] lg:h-[500px] flex items-center justify-center">
       <AnimatePresence mode="wait">
         <motion.div
           key={currentIndex}

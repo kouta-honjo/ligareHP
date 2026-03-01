@@ -34,14 +34,14 @@ export function About() {
     <main className="pt-20">
       <section className="py-20 relative overflow-hidden bg-white">
         <div className="container mx-auto px-6">
-          <div className="flex flex-col lg:flex-row min-h-[600px]">
+          <div className="flex flex-col lg:flex-row lg:min-h-[600px]">
             {/* Left Image Side */}
             <motion.div 
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 1.5 }}
-              className="lg:w-1/2 relative h-[400px] lg:h-auto overflow-hidden"
+              className="lg:w-1/2 relative h-[250px] md:h-[400px] lg:h-auto overflow-hidden"
             >
               <img 
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop" 
@@ -58,7 +58,7 @@ export function About() {
                 style={{ clipPath: "polygon(100% 0, 100% 100%, 0 100%)" }} 
               />
               
-              <div className="p-12 lg:p-20 w-full relative z-20">
+              <div className="p-6 md:p-12 lg:p-20 w-full relative z-20">
                 <motion.div
                   initial={{ opacity: 0, x: 30 }}
                   whileInView={{ opacity: 1, x: 0 }}

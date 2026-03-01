@@ -2,8 +2,8 @@ export function Footer() {
   return (
     <footer className="bg-slate-900 text-white py-20">
       <div className="container mx-auto px-6">
-        <div className="grid md:grid-cols-4 gap-12 mb-16">
-          <div className="col-span-2">
+        <div className="grid md:grid-cols-4 gap-8 md:gap-12 mb-16">
+          <div className="md:col-span-2">
             <a href="/" className="text-3xl font-bold tracking-tighter flex items-center gap-2 mb-6">
               <div className="w-10 h-10 bg-white flex items-center justify-center text-slate-900 font-serif italic">
                 L
